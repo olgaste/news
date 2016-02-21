@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript">google.load("feeds", "1");</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="feed">
+			<div class="header">
+				<h1>The BBC news</h1>
+			</div>
+			<div class="news-category">
+				<label>Пожалуйста, выберите категорию</label>
+				<select multiple class="form-control chosen-category">
+					<option class="chosen-category-news">News</option>
+					<option class="chosen-category-business">Business</option>
+					<option class="chosen-category-health">Health</option>
+					<option class="chosen-category-technology">Technology</option>
+				</select>
+			</div>
+			<div id="feed-news">
+			</div>
+			<div id="feed-business">
+			</div>
+			<div id="feed-health">
+			</div>
+			<div id="feed-technology">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
